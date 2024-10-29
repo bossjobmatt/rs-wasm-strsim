@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script type="module">
+    import init, { greet, compare_strings } from './pkg/hello_wasm_alert.js';
+    
+    async function run() {
+        await init();
+        try {
+          greet()
+          console.log(compare_strings("hello", "hello"));  // Outputs: 1
+          console.log(compare_strings("hello", "h3llo"));  // Outputs: 0.8
+          console.log(compare_strings("hello", "world"));  // Outputs
+
+        } catch (e) {
+            console.error("Caught panic:", e);
+        }
+    }
+    
+    run();
+  </script>
+</body>
+</html>
