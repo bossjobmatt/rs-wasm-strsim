@@ -1,7 +1,7 @@
 [package]
-name = "hello-wasm-alert"
+name = "rs-wasm-strsim"
 version = "0.1.0"
-authors = ["bossjob-matt <130427881+bossjobmatt@users.noreply.github.com>"]
+authors = ["bossjob-matt <bossjob_matt@proton.me>"]
 edition = "2018"
 description = "this is a wasm rs demo"
 license = "MIT"
