@@ -3,9 +3,10 @@ name = "rs-wasm-strsim"
 version = "0.1.0"
 authors = ["bossjob-matt <bossjob_matt@proton.me>"]
 edition = "2018"
-description = "this is a wasm rs demo"
+description = "this is rs wasm string similarity metrics lib demo"
 license = "MIT"
-repository = "https://github.com/bossjobmatt/wasm-rs-alert"
+repository = "https://github.com/bossjobmatt/rs-wasm-strsim"
+
 
 [lib]
 crate-type = ["cdylib", "rlib"]

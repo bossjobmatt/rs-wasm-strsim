@@ -52,7 +52,7 @@ wasm-pack publish
 
 ```
 <script type="module">
-  import init, { greet, compare_strings } from './pkg/hello_wasm_alert.js';
+  import init, { greet, compare_strings } from './pkg/rs_wasm_strsim.js';
   
   async function run() {
       await init();
